@@ -28,7 +28,7 @@ while count < maxPeople:
         
         if author not in already_done and user not in ignore:
             tip = random.randint(low,high)
-            comment.reply('u/dogetipbot ' +str(tip)+ ' doge')
+            comment.reply('+/u/dogetipbot ' +str(tip)+ ' doge')
             already_done.append(author)
             count = count + 1
             total = total + tip
