@@ -6,7 +6,7 @@ import time
 r = praw.Reddit('Giveaway script: random tips written by /u/DogeSensei')
 r.login('USERNAME', 'PASSWORD') #Edit these fields, don't worry only you can see them
 already_done = []
-ignore = ['Bot','bot','much-wow-doge','Ninja-Clone','FrontPageDoge'] #add your username to this list the you don't try to tip yourself
+ignore = ['Bot','bot','much-wow-doge','Ninja-Clone','frontpagefoge'] #add your username to this list the you don't try to tip yourself
 total = 0
 count = 0
 
